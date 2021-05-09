@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Together</string>
+    <string name="username1">@plasmadonors.delhi</string>
+    <string name="username2">@plasmadonor.lucknow</string>
+    <string name="username3">@findplasmadonor</string>
+    <string name="username4">@plasmadonors.mumbai</string>
+    <string name="username5">@needplasma</string>
+    <string name="username6">@plasmadonors.allahabad</string>
+    <string name="username7">@plasmadonors.vadodara</string>
+    <string name="username8">@bangaloreplasmadonor</string>
+    <string name="username9">@covidaidresources</string>
+    <string name="username10">@preventcovid19</string>
+    <string name="username11">@puneplasmadonors</string>
+    <string name="username12">@bangaloreplasmadonor</string>
+    <string name="username13">@faraziqbal</string>
+    <string name = "username14">@covid_helpcentre</string>
+    <string name = "username15">@covidsupport2021</string>
+    <string name = "username16">@covid19help2021</string>
+    <string name = "username17">@coronahelps19</string>
+    <string name = "username18">@cov.id911</string>
+    <string name = "username19">@covid_resources</string>
+    <string name = "username20">@covidverifiedleads</string>
+    <string name = "username21">@covidhelpindia</string>
+    <string name = "username22">@humanity_fights_covid</string>
+    <string name = "username23">@covid_upin</string>
+    <string name = "username24">@covid_kanpur</string>
+    <string name = "username25">@kanpuriyabhaiya</string>
+    <string name = "username26">@kanpurbeautiful</string>
+    <string name = "username27">@kolkatafightscovid19</string>
+    <string name = "username28">@covid.delhi</string>
+    <string name = "username29">@delhicovidhelpline</string>
+    <string name = "username30">@covidresourcesdelhi</string>
+
+<!--    Web Links-->
+
+    <string name="web1">www.external.sprinklr.com</string>
+    <string name="web2">www.covid-resources-chi.vercel.app</string>
+    <string name="web3">www.covid19.uk.gov.in</string>
+    <string name="web4">www.u07.ihxpro.in</string>
+    <string name="web5">www.plasmadonors.thebetterindia.com</string>
+    <string name="web6">www.covidplasma.online</string>
+    <string name="web7">www.rahatup.in</string>
+
+</resources>

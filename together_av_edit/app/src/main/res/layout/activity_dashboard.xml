@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.together.cowith.Dashboard"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?actionBarSize">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/back_pressed"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="4dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:padding="15dp"-->
+<!--                android:src="@drawable/cowith_logo_final" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:padding="15dp"-->
+<!--                android:src="@drawable/search_icon" />-->
+
+<!--        </RelativeLayout>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="26sp"
+            android:fontFamily="@font/bg_black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:padding="25dp"
+            android:gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:onClick="callOxygen"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cover1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="OXYGEN CYLINDERS"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Know more"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="callPlasma"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/cover2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLASMA DONORS"
+                android:layout_centerVertical="true"
+                android:textSize="28sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Explore the beauty"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="callAvlResources"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/cover3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVAILABLE RESOURCES"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:foregroundGravity="center"
+                android:layout_centerVertical="true"
+                android:textSize="24sp"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="See the efforts"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="callWeb"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/cover_web">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IMPORTANT WEBSITES"
+                android:layout_centerVertical="true"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+
+
+            <!--            <Button-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Explore the beauty"-->
+            <!--                android:background="#00000000"-->
+            <!--                android:padding="25dp"-->
+            <!--                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:onClick="callSocial"
+            android:background="@drawable/cover4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="SOCIAL"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <!--            <Button-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Take me there"-->
+            <!--                android:background="#00000000"-->
+            <!--                android:padding="25dp"-->
+            <!--                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="callDonor"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/cover5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BECOME A DONOR"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:foregroundGravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="I want to study"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:onClick="callContactUs"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cover6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:fontFamily="@font/baloo_bold"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Test me"-->
+<!--                android:background="#00000000"-->
+<!--                android:padding="25dp"-->
+<!--                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
